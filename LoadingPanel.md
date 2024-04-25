@@ -15,24 +15,6 @@ The main purpose of this panel is to facilitate operators' supervision over what
 
 Adding an order creates a new form for us, which, upon completion and clicking the green plus sign, adds a record to the database. Such a record is automatically assigned an ID number, a Primary Key, which allows the program to easily track specific records in the future and refer to them when needed.
 
-```
-Patch(
-    'Paint Order database';
-    Defaults('Paint Order database');
-    { 
-        Tytuł: DataCardValue1_2.Text;
-        material_num: DataCardValue2_2.Text; 
-        load_date: DateValue1_2.SelectedDate + Time(Value(HourValue1_2.Selected.Value);Value(MinuteValue1_2.Selected.Value);0); 
-        pc_count: Value(DataCardValue3_2.Text);
-        double_pass: DataCardValue4_2.Value;
-        comment: DataCardValue5_2.Text;
-        shift: DataCardValue8_2.Selected.Value
-    }
-);
-Navigate(loadingservicescreen;ScreenTransition.Cover);
-ResetForm(Addform)
-```
-
 ![eydcja_zaladunek](https://github.com/SymbiotyK/Paint-Order-Fulfillment/assets/161228121/6be36a90-5890-4950-aca0-95a1e0407032)
 
 Editing begins by selecting the desired row and passing the data to a form that reproduces the order addition panel, but with the data from the selected row. In this panel, we can modify all the data, and then by clicking the green button, send the updated data to the database.
