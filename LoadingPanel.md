@@ -5,7 +5,7 @@ Loading panel contains:
 2. Main table with last 100 orders
 3. Add new order button
 5. Edit selected order button
-6. Delete selected record
+6. Delete selected record button
 7. Check order button
 8. Check material button
 9. Selected couter
