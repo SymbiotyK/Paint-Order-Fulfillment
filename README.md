@@ -13,3 +13,8 @@ Technologies used:
 - MS Teams as the primary platform for launching the application and storing data.
 - SharePoint Lists as the database.
 - Excel for creating dynamic reports and analyses.
+
+Workload:
+Designing and creating a UML diagram ~5h  
+Creating all panels with functionality ~42h  
+Implementation ~3h  
