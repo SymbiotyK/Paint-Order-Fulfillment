@@ -1,4 +1,4 @@
-# Paint-Order-Fulfillment
+# Paint-Order-Fulfillment (DONE)
 An application based on the Microsoft Power Apps low-code environment to manage and analyze orders on a painting line.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 The application was built on the Microsoft Power Apps platform and deployed on the Teams platform, allowing operators to easily input painting orders along with technological data. Through integration with SharePoint List, order data is automatically stored and processed, enabling the generation of periodic reports and analyses. The creation of the application stemmed from the lack of a process reporting system, which made it difficult to conduct in-depth analysis of order flow.
