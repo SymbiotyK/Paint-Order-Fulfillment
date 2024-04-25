@@ -1,6 +1,6 @@
-Analiza do paneli została stworzona w palenu z racji na elastyczność programu i dostęp do niego przez technologa co w przypadku operatorów jest niemożliwe. Dane z bazy są zaciągane przez power queryy i modelowane pod potrzebny analizy.
+The analysis panels were developed for the program's flexibility and accessibility by technologists, which is impossible for operators. Data from the database is retrieved using Power Query and tailored to the needs of analysis.
 
-Zostały stworzone dwa panele, do analizy zejść sztuk i analizy braków(pareto chart). Obydwa panele są w pełni interaktywne i służą do wyświetlania danych z bazy danych. Po wybraniu tygodnia, dnia i zmiany ukazują się nam wykresy pod te konkretne dane wejściowe gotowe do wydruku, shearowania dalej.
+Two panels have been created: for analyzing production downtimes and for analyzing defects (Pareto chart). Both panels are fully interactive and display data from the database. After selecting the week, day, and shift, charts corresponding to specific input data are presented, ready for printing or further analysis.
 
 ![Zejscia](https://github.com/SymbiotyK/Paint-Order-Fulfillment/assets/161228121/8ad3a781-e331-46cd-b969-8911f7f679a7)
 
