@@ -28,8 +28,8 @@ Patch(
         comment: DataCardValue5_2.Text;
         shift: DataCardValue8_2.Selected.Value
     }
-);;
-Navigate(loadingservicescreen;ScreenTransition.Cover);;
+);
+Navigate(loadingservicescreen;ScreenTransition.Cover);
 ResetForm(Addform)
 ```
 
