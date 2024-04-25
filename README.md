@@ -15,6 +15,6 @@ Technologies used:
 - Excel for creating dynamic reports and analyses.
 
 Workload:  
-Designing and creating a UML diagram ~5h  
+System and UML diagram design ~5h  
 Creating all panels with functionality ~42h  
 Implementation ~3h  
