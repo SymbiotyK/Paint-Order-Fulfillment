@@ -9,11 +9,11 @@ Loading panel contains:
 6. Check material button
 7. Selected couter
 
-Główny cel tego panelu to ułatwienie operatorm nadzór nad tym co jest aktualne malowane i co zostało pomalowane, mogą dowolnie manipulować zleceniem poprzez panele do dodawania zlecenie, edycji zlecenia i usuwania zlecenia.
+The main purpose of this panel is to facilitate operators' supervision over what is currently being painted and what has been painted. They can freely manipulate the order through panels for adding, editing, and deleting orders.
 
 ![dodawanie_zaladunek](https://github.com/SymbiotyK/Paint-Order-Fulfillment/assets/161228121/d969ec53-1e12-4045-9358-649b65aa27b3)
 
-Dodwanie zamówienia tworzy nam nowego formsa który po wypełnieniu i kliknięciu zielonego plusika dodaje record do bazy danych, taki record ma nadawany automatycznie numer ID, Primary Key, dzięki któremu w przyszłoci program może łatwo śledzić konkretny record i odwoływał się do niego w rządanej chwili.
+Adding an order creates a new form for us, which, upon completion and clicking the green plus sign, adds a record to the database. Such a record is automatically assigned an ID number, a Primary Key, which allows the program to easily track specific records in the future and refer to them when needed.
 
 ```
 Patch(
@@ -35,4 +35,4 @@ ResetForm(Addform)
 
 ![eydcja_zaladunek](https://github.com/SymbiotyK/Paint-Order-Fulfillment/assets/161228121/6be36a90-5890-4950-aca0-95a1e0407032)
 
-Edycja zacztuje wyselectowany wiersz i przekazuje dane do formsa który odtwarza panel do dodwania zlecenia z tym że z danymi z wiersza. W tym panelu możemy zmienić wszystkie dane a następnie klikając zielony przycisk wysłać aktualne dane do bazdanych.
+Editing begins by selecting the desired row and passing the data to a form that reproduces the order addition panel, but with the data from the selected row. In this panel, we can modify all the data, and then by clicking the green button, send the updated data to the database.
