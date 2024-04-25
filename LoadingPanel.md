@@ -28,7 +28,7 @@ To delete a record, you need to select the record and then press the delete butt
 
 The last two options are used to search for a specific order or material in the entire database, and of course, after finding them, we can also edit them.
 
-Workload:
-Designing and creating a UML diagram ~5h
-Creating main panel with all functions ~21h
-Implementation ~2h
+Workload:  
+Designing and creating a UML diagram ~5h  
+Creating main panel with all functions ~21h  
+Implementation ~2h  
