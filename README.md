@@ -14,7 +14,7 @@ Technologies used:
 - SharePoint Lists as the database.
 - Excel for creating dynamic reports and analyses.
 
-Workload:
+Workload:  
 Designing and creating a UML diagram ~5h  
 Creating all panels with functionality ~42h  
 Implementation ~3h  
