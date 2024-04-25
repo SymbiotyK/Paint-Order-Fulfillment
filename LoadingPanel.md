@@ -1,6 +1,6 @@
-![panel_zaladunku](https://github.com/SymbiotyK/Paint-Order-Fulfillment/assets/161228121/278f0a17-0e19-491f-b680-dd00fed0d69f)
+![panel_zaladunku](https://github.com/SymbiotyK/Paint-Order-Fulfillment/assets/161228121/030f24f7-3557-4a97-9965-dd3cc840769b)
 
-Loading panel contains:
+Loading panel contains:  
 1. Top navbar (current shift, current data, todays output, refresh button)
 2. Main table with last 100 orders
 3. Add new order button
@@ -15,15 +15,15 @@ The main purpose of this panel is to facilitate operators' supervision over what
 
 Adding an order creates a new form for us, which, upon completion and clicking the green plus sign, adds a record to the database. Such a record is automatically assigned an ID number, a Primary Key, which allows the program to easily track specific records in the future and refer to them when needed.
 
-![eydcja_zaladunek](https://github.com/SymbiotyK/Paint-Order-Fulfillment/assets/161228121/6be36a90-5890-4950-aca0-95a1e0407032)
+![eydcja_zaladunek](https://github.com/SymbiotyK/Paint-Order-Fulfillment/assets/161228121/fa581c4f-edb5-463d-a36d-78735ad6731a)
 
 Editing begins by selecting the desired row and passing the data to a form that reproduces the order addition panel, but with the data from the selected row. In this panel, we can modify all the data, and then by clicking the green button, send the updated data to the database.
 
-![usuwanie_zaladunek](https://github.com/SymbiotyK/Paint-Order-Fulfillment/assets/161228121/b6d8bd89-e9c6-48cb-97a7-d17ebe80ade6)
+![usuwanie_zaladunek](https://github.com/SymbiotyK/Paint-Order-Fulfillment/assets/161228121/dada7f62-ea6f-4e0a-b07d-168a2751a8d8)
 
 To delete a record, you need to select the record and then press the delete button. As a precaution against accidental clicks, confirming the deletion is required in a popup window.
 
-![przewodnik_zaladunek](https://github.com/SymbiotyK/Paint-Order-Fulfillment/assets/161228121/082f87f8-fd17-42f0-80dc-4cb81d962fca)
+![przewodnik_zaladunek](https://github.com/SymbiotyK/Paint-Order-Fulfillment/assets/161228121/b650b880-1fff-4012-8cbb-ebf40a5ee43f)
 ![material_zaladunek](https://github.com/SymbiotyK/Paint-Order-Fulfillment/assets/161228121/2bb91cbb-d2b3-4887-9362-486e0bae6779)
 
 The last two options are used to search for a specific order or material in the entire database, and of course, after finding them, we can also edit them.
