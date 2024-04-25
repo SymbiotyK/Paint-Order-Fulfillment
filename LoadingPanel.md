@@ -28,8 +28,3 @@ To delete a record, you need to select the record and then press the delete butt
 ![material_zaladunek](https://github.com/SymbiotyK/Paint-Order-Fulfillment/assets/161228121/2bb91cbb-d2b3-4887-9362-486e0bae6779)
 
 The last two options are used to search for a specific order or material in the entire database, and of course, after finding them, we can also edit them.
-
-Workload:  
-Designing and creating a UML diagram ~5h  
-Creating main panel with all functions ~21h  
-Implementation ~2h  
