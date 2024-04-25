@@ -4,10 +4,11 @@ Loading panel contains:
 1. Top navbar (current shift, current data, todays output, refresh button)
 2. Main table with last 100 orders
 3. Add new order button
-4. Edit selected order button
-5. Check order button
-6. Check material button
-7. Selected couter
+5. Edit selected order button
+6. Delete selected record
+7. Check order button
+8. Check material button
+9. Selected couter
 
 The main purpose of this panel is to facilitate operators' supervision over what is currently being painted and what has been painted. They can freely manipulate the order through panels for adding, editing, and deleting orders.
 
